@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f6;
+    color: #5c3b4d;
+}
+
+header{
+    background-color: #ffb3d1;
+    color: #5c3b4d;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3b1d3a;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header p{
+    font-size: 1.2rem;
+    color: #5c3b4d;
+    text-align: center;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.sobre-nos{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgb(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.catalogo-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.infos-produtos{
+    background-color: #ffd6e7;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(255, 182, 193, 0.6);
+    text-align: center;
+}
+
+.imagem-produtos{}
+
+.descricao-produtos{}
+
+.preço{}
+
+.botao{}
+
+footer{
+    background-color: #570057;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+}
